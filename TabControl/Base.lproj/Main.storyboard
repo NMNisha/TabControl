@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="K5o-pT-Ti6">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Green-->
+        <scene sceneID="FZS-jN-XhT">
+            <objects>
+                <viewController id="vRn-i9-6h6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IKI-sv-bBP"/>
+                        <viewControllerLayoutGuide type="bottom" id="ziF-UI-rsS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jQ6-ep-gDe">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Green" image="pinterest-icon-300x300.png" id="k6p-K6-S8c">
+                        <inset key="imageInsets" minX="66" minY="66" maxX="66" maxY="66"/>
+                    </tabBarItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LVP-oG-p7F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="175" y="312"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="B5y-SG-Prm">
+            <objects>
+                <viewController id="1nE-Hy-6qS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IjC-J9-4Jf"/>
+                        <viewControllerLayoutGuide type="bottom" id="nc9-mb-OEs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ih5-1w-VYd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cyan="0.057625368240000002" magenta="1" yellow="0.72356128689999999" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" image="pinterest-icon-300x300.png" id="sxp-Fr-o1D">
+                        <inset key="imageInsets" minX="66" minY="66" maxX="66" maxY="68"/>
+                    </tabBarItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uIj-l5-crn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="175" y="-349"/>
+        </scene>
+        <!--Color Control-->
+        <scene sceneID="mbo-Qx-zz6">
+            <objects>
+                <tabBarController id="K5o-pT-Ti6" customClass="ColorControl" customModule="TabControl" customModuleProvider="target" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="wmt-xt-wHO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="1nE-Hy-6qS" kind="relationship" relationship="viewControllers" id="XA1-d1-uzm"/>
+                        <segue destination="vRn-i9-6h6" kind="relationship" relationship="viewControllers" id="NaH-zc-PEv"/>
+                        <segue destination="lbx-J4-qvf" kind="relationship" relationship="viewControllers" id="uuy-uU-5qk"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2bL-Cc-0YG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-645" y="-18"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="5L9-j1-2MQ">
+            <objects>
+                <viewController id="lbx-J4-qvf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eux-OI-kbr"/>
+                        <viewControllerLayoutGuide type="bottom" id="8M8-wa-2BA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nwz-m9-3vh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="pinterest-icon-300x300.png" selectedImage="pinterest-icon-300x300.png" id="5vF-Ny-IUZ">
+                        <inset key="imageInsets" minX="66" minY="66" maxX="66" maxY="66"/>
+                    </tabBarItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qyY-Ya-X0e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-660" y="915"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pinterest-icon-300x300.png" width="300" height="300"/>
+    </resources>
+</document>
